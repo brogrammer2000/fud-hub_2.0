@@ -4,14 +4,10 @@ body{
     overflow-x:hidden !important;
 }
 .container{
-    background-color: white;
+    background-color: red;
 }
-.footer{
-    text-align: center;
-    color: blanchedalmond;
-    background-color: black;
-    margin-top: 100px;
-}
+
+
 #recipes{
     text-align: center;
     background-color: #f1f1f1 ;}
