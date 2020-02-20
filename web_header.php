@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-sm-5">
                 <img src="fud-hub_logo_ns.jpg" alt="fud-hub_logo" id="logo">
@@ -41,9 +41,9 @@
                                     Follow us
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Facebook</a>
+                                    <a class="dropdown-item" href="facebool.com">Facebook</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Instagram</a>
+                                    <a class="dropdown-item" href="instagram.com">Instagram</a>
                                 </div>
                             </li>
                             <li class="nav-item">

@@ -1,0 +1,1 @@
+<a href="http://egemden.com.tr/"> <img src="ad.jpg" alt="juice advertisement"></a>

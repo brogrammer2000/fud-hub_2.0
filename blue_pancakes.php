@@ -128,7 +128,8 @@
         </div>
 
 
-       
+       <?php include "comments.php" 
+       ?>
 
 
     </div>

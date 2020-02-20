@@ -12,7 +12,7 @@
 
     <!--CSS link-->
     <link href='https://fonts.googleapis.com/css?family=Marck Script' rel='stylesheet'>
-    <link rel="stylesheet" href="end_recipe_css.css">
+    <link rel="stylesheet" href="CSS/end_recipe_css.css">
 
     <!-- Navbar-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -101,7 +101,7 @@
                     </b></p>
                 <p>
                     <ul>
-                    <li>Step up your bacon game with organic bacon if you can find it… it is tastier and has fewer additives.</li>
+                        <li>Step up your bacon game with organic bacon if you can find it… it is tastier and has fewer additives.</li>
                         <li>Calories: 120</li>
                         <li>Total Fat: 7.1g</li>
                         <li>Cholesterol: 43.1mg</li>
@@ -113,73 +113,16 @@
                 </p>
             </div>
             <div class="col-sm-6" id="nutrition_img">
-                <img src="pancakes_info.jpg" alt="nutritional information">
+                <img src="image/pancakes_info.jpg" alt="nutritional information">
             </div>
         </div>
 
-        <div class="row" id="comments">
-            <div class="col-lg-5" id="comments_input">
-                <h2>Leave a Reply</h2>
-                <hr>
-                <p>Your email address will not be published. Required fields are marked <span style="color: red">*</span></p>
+        <?php include "comments.php"
+        ?>
 
-                <form>
-
-
-                    <p>NAME <span style="color: red">*</span></p>
-                    <input id="input_box" class="info" type="text" name="name">
-
-                    <p>EMAIL <span style="color: red">*</span></p>
-                    <input id="input_box" class="info" type="email" name="email">
-
-                    <p>COMMENT</p>
-                    <textarea id="input_box" class="info" style="height: 150px;" name="comment"></textarea>
-
-                    <p>RATING</p>
-                    <input id="input_box" class="info" type="text" name="website">
-                    <br>
-                    <br>
-
-
-                    <button style="background-color: red" type="button" class="btn btn-primary button">POST COMMENT</button>
-                    <hr>
-
-                </form>
-            </div>
-
-
-
-
-            <div class="col-lg-7 comment" id="comments">
-                <h2>Comments</h2>
-                <hr>
-                <div id="input_box" class="box">
-                    <h4>SCARLETT JOHANSONN</h4>
-                    <p>Try grandma’s spot remover to get stains out. It is pretty awesome stuff</p>
-
-                </div>
-
-                <div id="input_box" class="box">
-                    <h4>ANGELINA JOLIE</h4>
-                    <p>MY mOMMY TAUGHT ME THAT IF YOU REALLY WANT FLUFFY PANCAKES, SEPARATE THE EGSS, AND BEST THE
-                        WHITES TIL SOFT PEAKS FORM AND FOLD THEM IN. iT’S A NEVER FAIL FOR FLUFFY hOTCAKES, AS SHE
-                        CALLED THEM.</p>
-
-                </div>
-
-                <div id="input_box" class="box">
-                    <h4>AARUSHI BHATNAGAR</h4>
-                    <p>Greetings, I simply made these pancakes for supper. They looked so great I couldn’t support
-                        myself. I follwed the formula careful and they turned out flawless. I utilized solidified
-                        blueberries, I didn’t blend them into the hitter yet I put the blueberries straightforwardly
-                        into the scoop consequently my player did not turn blue.</p>
-
-                </div>
-                <hr>
-            </div>
-
-        </div>
-
+<div class="w3-content">
+ <a href="https://litmosheroes.com/"><img class="mySlides" src="https://i.imgur.com/ZtdhrUA.jpg" alt="custom_html_banner1" style="width:100%"></a>
+</div>
 
     </div>
     <!--container-->
