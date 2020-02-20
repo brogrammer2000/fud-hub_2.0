@@ -1,9 +1,9 @@
 <?php include 'db.php';
-
+session_start();
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 $f = test_input($_POST['fname']);
 $l = test_input($_POST['lname']);
-$e = test_input($_POST['email']);
+$e = test_input($_POST['email']);   
 $u = test_input($_POST['username']);
 $p = test_input($_POST['password']);
 $g = $_POST['gender'];
