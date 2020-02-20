@@ -25,9 +25,8 @@
 
      <!-- my CSS-->
      <link rel="stylesheet" href="CSS/bld.css">
-     <link rel="stylesheet" href="CSS/recipe_css.css">
      <link rel="stylesheet" href="CSS/frontPage1.css">
-    
+
 
  </head>
 
@@ -54,9 +53,10 @@
              </div>
          </div>
 
+         <!-- nav bar -->
          <div class="row">
              <div class="col-sm-12">
-                 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
                      <a class="navbar-brand" href="frontPage.php">Home</a>
                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                          <span class="navbar-toggler-icon"></span>
@@ -65,6 +65,7 @@
                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
                          <ul class="navbar-nav mr-auto">
 
+                             <!-- social media -->
                              <li class="nav-item dropdown">
                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                      Follow us
@@ -84,24 +85,43 @@
                                  </div>
                              </li>
 
+                             <!-- services -->
+                             <li class="nav-item dropdown">
+                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                     Services
+
+                                 </a>
+                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                     <a class="dropdown-item" href="breakfast.php">Breakfast</a>
+                                     <div class="dropdown-divider"></div>
+                                     <a class="dropdown-item" href="lunch.php">Lunch</a>
+                                     <div class="dropdown-divider"></div>
+                                     <a class="dropdown-item" href="dinner.php">Dinner</a>
+                                 </div>
+                             </li>
+
+
+
                              <li class="nav-item">
                                  <a style="margin-left: 20px; font-size: large;" class="nav-link" href="#">
                                      Post a Recipe </a>
                              </li>
 
-                             <li class="nav-item">
-                                 <a style="margin-left: 20px; font-size: large;" class="nav-link" href="breakfast.html">
+
+                             <!-- <li class="nav-item">
+                                 <a style="margin-left: 20px; font-size: large;" class="nav-link" href="breakfast.php">
                                      Breakfast </a style="margin-left: 10px;">
                              </li>
                              <li class="nav-item">
-                                 <a style="margin-left: 20px; font-size: large;" class="nav-link" href="lunch.html">
+                                 <a style="margin-left: 20px; font-size: large;" class="nav-link" href="lunch.php">
                                      Lunch </a style="margin-left: 10px;">
                              </li>
                              <li class="nav-item">
-                                 <a style="margin-left: 20px; font-size: large;" class="nav-link" href="dinner.html">
+                                 <a style="margin-left: 20px; font-size: large;" class="nav-link" href="dinner.php">
                                      Dinner </a>
-                             </li>
+                             </li> -->
                          </ul>
+
                          <form class="form-inline my-2 my-lg-0" id="search">
                              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                              <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>

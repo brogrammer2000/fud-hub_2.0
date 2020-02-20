@@ -25,18 +25,18 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
                 <a href="homePage.php">
-                    <img src="image/fud-hub_logo_ns.jpg" alt="fud-hub_logo" id="logo">
+                    <img src="image/fud-hub_logo_ns.png" alt="fud-hub_logo" id="logo">
                 </a>
                 <hr>
             </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-5 form">
                 <h1>Fub-Hub</h1>

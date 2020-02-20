@@ -1,10 +1,10 @@
-/* body{
-    background-image: ("food_header_background.jpg");
-} */
+body{
+    background-image: url("food_header_background.jpg");
+}
 
 .container-fluid{
     background-color: whitesmoke;
-    width: 96%;
+    width: 95%;
 }
 
 a{
@@ -190,3 +190,9 @@ h4.hello {
     background: #55ACEE;
     color: white;
   }
+
+  .footer{
+    text-align: center;
+    color: blanchedalmond;
+    background-color: black;  
+}

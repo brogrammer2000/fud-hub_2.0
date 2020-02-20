@@ -15,7 +15,7 @@
                 <p><b>Blueberry Pancakes</b> </p>
         </div>
         <div class="col-sm-4" id="br_coloumn">
-            <a href="chicken_slider.html">
+            <a href="oatmeal.php">
                 <img src="image/oatmeal.jpg" alt="Recipe_2" id="br_img">
                 <p><b>Oatmeal</b></p>
         </div>
