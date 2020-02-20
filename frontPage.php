@@ -86,14 +86,14 @@
 
         <div class="col-lg-4">
             <img class="option" src="image/lunch1.jpg" alt="lunch" class="img-fluid">
-            <a href="lunch.html" class="breakfast">
+            <a href="lunch.php" class="breakfast">
                 <h2><b>Lunch</b></h2>
             </a>
         </div> <!-- col -->
 
         <div class="col-lg-4">
             <img class="option" src="image/dinner2.jpg" alt="dinner" class="img-fluid">
-            <a href="dinner.html" class="breakfast">
+            <a href="dinner.php" class="breakfast">
                 <h2><b>Dinner</b></h2>
             </a>
         </div> <!-- col -->
