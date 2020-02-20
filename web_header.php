@@ -24,9 +24,10 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
      <!-- my CSS-->
+     <link rel="stylesheet" href="CSS/bld.css">
      <link rel="stylesheet" href="CSS/recipe_css.css">
      <link rel="stylesheet" href="CSS/frontPage1.css">
-     <link rel="stylysheet" href="CSS/bld.css">
+    
 
  </head>
 
