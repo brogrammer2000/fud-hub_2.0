@@ -22,7 +22,7 @@
 
 
 <div class="container">
-    <?php include 'web_header.php'?>;
+    <?php include 'web_header.php'?>
     <div class="row">
         <div class="col-sm-12" id="heading">
             <h1>LUNCH</h1>
@@ -51,7 +51,7 @@
     </div>
 </div>
 
-<?php include 'footer.php'?>;
+<?php include 'footer.php'?>
 
 
 </body>

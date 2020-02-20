@@ -24,7 +24,7 @@
 
 
 <div class="container">
-    <?php include 'web_header.php'?>;
+    <?php include 'web_header.php'?>
     <form action="action_page.php" >
         <div class="row">
             <div class="col-sm-12">
@@ -41,6 +41,7 @@
                             <input type="text" id="username" name="username" placeholder="Your Username..">
                         </div>
                     </div>
+                <hr>
                     <div class="row">
                         <div class="col-25">
                             <label for="cuisine">Cuisine</label>
@@ -58,6 +59,7 @@
                             </select>
                         </div>
                     </div>
+                <hr>
                 <div class="row">
                     <div class="col-25">
                         <label for="subject">Ingredients</label>
@@ -74,6 +76,7 @@
                             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
                         </div>
                     </div>
+                <hr>
 
                     <div class="row">
                         <div class="col-25">
@@ -83,10 +86,25 @@
                             <input type="text" id="notes" name="notes" placeholder="Notes & Nutritions...">
                         </div>
                     </div>
+                <hr>
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    Select image to upload  :
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+
+                </form>
+                <hr>
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    Select Video Link  :
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+
+                </form>
+                <hr>
                     <div class="row">
                         <input type="submit" value="Submit">
                     </div>
                 </form>
+
+
             </div>
 
 
@@ -100,4 +118,4 @@
 </body>
 
 </html>
-<?php include 'footer.php'?>;
+<?php include 'footer.php'?>

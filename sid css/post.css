@@ -58,7 +58,16 @@ input[type=submit]:hover {
     width: 75%;
 
     margin-left:  20px;
+    margin-bottom: 20px;
 
+}
+
+.upload {
+    float: left;
+    width: 75%;
+
+    margin-left:  20px;
+    margin-bottom: 20px;
 }
 
 /* Clear floats after the columns */
