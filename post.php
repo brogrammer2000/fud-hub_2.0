@@ -12,25 +12,26 @@
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <link rel="stylesheet" href="bld.css">
-    <link rel="stylesheet" href="post.css">
+    <link rel="stylesheet" href="CSS/bld.css">
+    <link rel="stylesheet" href="CSS/post.css">
 
 
 
 
 </head>
+
 <body>
 
 
 
-<div class="container">
-    <?php include 'web_header.php'?>
-    <form action="action_page.php" >
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Post a Recipe</h1>
-                <p>Please fill in the details to Post your Recipe...</p>
-                <hr>
+    <div class="container">
+        <?php include 'web_header.php' ?>
+        <form action="action_page.php">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Post a Recipe</h1>
+                    <p>Please fill in the details to Post your Recipe...</p>
+                    <hr>
 
 
                     <div class="row">
@@ -41,7 +42,7 @@
                             <input type="text" id="username" name="username" placeholder="Your Username..">
                         </div>
                     </div>
-                <hr>
+                    <hr>
                     <div class="row">
                         <div class="col-25">
                             <label for="cuisine">Cuisine</label>
@@ -59,15 +60,15 @@
                             </select>
                         </div>
                     </div>
-                <hr>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="subject">Ingredients</label>
+                    <hr>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Ingredients</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Your Secret Ingredients.." style="height:200px"></textarea>
+                        </div>
                     </div>
-                    <div class="col-75">
-                        <textarea id="subject" name="subject" placeholder="Your Secret Ingredients.." style="height:200px"></textarea>
-                    </div>
-                </div>
                     <div class="row">
                         <div class="col-25">
                             <label for="subject">Description</label>
@@ -76,7 +77,7 @@
                             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
                         </div>
                     </div>
-                <hr>
+                    <hr>
 
                     <div class="row">
                         <div class="col-25">
@@ -86,36 +87,36 @@
                             <input type="text" id="notes" name="notes" placeholder="Notes & Nutritions...">
                         </div>
                     </div>
-                <hr>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    Select image to upload  :
-                    <input type="file" name="fileToUpload" id="fileToUpload">
+                    <hr>
+                    <form action="upload.php" method="post" enctype="multipart/form-data">
+                        Select image to upload :
+                        <input type="file" name="fileToUpload" id="fileToUpload">
 
-                </form>
-                <hr>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    Select Video Link  :
-                    <input type="file" name="fileToUpload" id="fileToUpload">
+                    </form>
+                    <hr>
+                    <form action="upload.php" method="post" enctype="multipart/form-data">
+                        Select Video Link :
+                        <input type="file" name="fileToUpload" id="fileToUpload">
 
-                </form>
-                <hr>
+                    </form>
+                    <hr>
                     <div class="row">
                         <input type="submit" value="Submit">
                     </div>
-                </form>
+        </form>
 
 
-            </div>
+    </div>
 
 
 
 
 
-        </div>
+    </div>
 
 
 
 </body>
 
 </html>
-<?php include 'footer.php'?>
+<?php include 'footer.php' ?>

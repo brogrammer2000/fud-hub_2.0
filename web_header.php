@@ -1,4 +1,5 @@
- <?php include 'db.php' ?>
+ <?php include 'db.php'; ?>
+
 
  <!DOCTYPE html>
  <html lang="en">
@@ -48,6 +49,7 @@
                      <?php
                         session_start();
                         echo "Hello " . $_SESSION['user'];
+
                         ?>
                  </h4>
              </div>
@@ -103,7 +105,7 @@
 
 
                              <li class="nav-item">
-                                 <a style="margin-left: 20px; font-size: large;" class="nav-link" href="#">
+                                 <a style="margin-left: 20px; font-size: large;" class="nav-link" href="post.php">
                                      Post a Recipe </a>
                              </li>
 

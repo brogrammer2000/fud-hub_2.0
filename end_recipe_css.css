@@ -5,6 +5,7 @@ body{
 .container{
     background-color: white;
 }
+
 #rec_name{
     font-family: 'Marck Script';font-size: 50%;
     color: red;
