@@ -19,17 +19,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
     <!-- my CSS-->
-    <link rel="stylesheet" href="CSS/recipe_css.css">
+    <link rel="stylesheet" href="CSS/frontPage1.css">
     <link rel="stylesheet" href="CSS/login.css">
 
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
                 <a href="homePage.php">
-                    <img src="image/fud-hub_logo_ns.jpg" alt="fud-hub_logo" id="logo">
+                    <img src="image/fud-hub_logo_ns.png" alt="fud-hub_logo" id="logo">
                 </a>
                 <hr>
             </div>
@@ -37,7 +37,7 @@
     </div>
 
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-5 form">
                 <h1>Create a New Account</h1>
@@ -97,7 +97,7 @@
                 <img src="image/Avatar.png" alt="avatar" class="image-fluid mx-auto d-block">
             </div>
         </div>
-
+    </div>
 
 
 

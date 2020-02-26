@@ -98,8 +98,7 @@ img#comments{
 .footer{
     text-align: center;
     color: blanchedalmond;
-    background-color: black;
-   
+    background-color: black;  
 }
 
 @media only screen and (max-width: 800px) {

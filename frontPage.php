@@ -59,6 +59,13 @@
                         <hr>
                     </div>
                     <div class="carousel-item">
+                            <a href="https://www.aalto.fi/en/admission-services/bachelors-admissions">
+                                <img src="image/lamk.png" alt="lamk" class="img-fluid">
+                                <button class="btn btn-danger">Apply Now</button>
+                            </a>
+                            <hr>
+                        </div>
+                    <div class="carousel-item">
                         <a href="https://www.haaga-helia.fi/en/for-applicant/applicant?userLang=en">
                             <img src="image/haaga.png" alt="haaga" class="img-fluid">
                             <button class="btn btn-danger">Apply Now</button>
@@ -86,14 +93,14 @@
 
         <div class="col-lg-4">
             <img class="option" src="image/lunch1.jpg" alt="lunch" class="img-fluid">
-            <a href="lunch.html" class="breakfast">
+            <a href="lunch.php" class="breakfast">
                 <h2><b>Lunch</b></h2>
             </a>
         </div> <!-- col -->
 
         <div class="col-lg-4">
             <img class="option" src="image/dinner2.jpg" alt="dinner" class="img-fluid">
-            <a href="dinner.html" class="breakfast">
+            <a href="dinner.php" class="breakfast">
                 <h2><b>Dinner</b></h2>
             </a>
         </div> <!-- col -->
