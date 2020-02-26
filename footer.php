@@ -1,4 +1,10 @@
 <div class="container-fluid">
+
+<div class="advertisement">
+<?php include "advertisement.php"
+?>
+
+</div>
     
         <div class="footer">
             <p> Help us to Grow More... Contact us:)</p>
