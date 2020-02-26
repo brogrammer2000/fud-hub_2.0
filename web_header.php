@@ -1,3 +1,6 @@
+<?php include 'db.php'; ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,63 +8,125 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- mobile first -->
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  
-    
+
+    <!--for the social media-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- my CSS-->
+    <link rel="stylesheet" href="CSS/bld.css">
+    <link rel="stylesheet" href="CSS/frontPage1.css">
+
+
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-5">
-                <img src="fud-hub_logo_ns.jpg" alt="fud-hub_logo" id="logo">
+                <a href="frontPage.php">
+                    <img src="image/fud-hub_logo_ns.png" alt="fud-hub_logo" id="logo">
+                </a>
             </div>
             <div class="col-sm-7">
-               
+                <img src="image/loggedin.png" alt="user_logged_in" id="quan" class="image-fluid"><br>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="frontpage_afterLogin.html">FUD-HUB</a>
+                <h4 class="hello">
+                    <?php
+                       session_start();
+                       echo "Hello, " . $_SESSION['user']."!";
+
+                       ?>
+                </h4>
+            </div>
+        </div>
+
+        <!-- nav bar -->
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                    <a class="navbar-brand" href="frontPage.php">Home</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
+
+                            <!-- social media -->
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Follow us
+
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="facebool.com">Facebook</a>
+                                    <a class="dropdown-item fa fa-facebook" href="#"> Facebook</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="instagram.com">Instagram</a>
+                                    <a class="dropdown-item fa fa-instagram" href="#"> Instagram</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item fa fa-twitter" href="#"> Twitter</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item fa fa-youtube" href="#"> Youtube</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item fa fa-linkedin" href="#"> Linkedin</a>
+
                                 </div>
                             </li>
+
+                            <!-- services -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Services
+
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="breakfast.php">Breakfast</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="lunch.php">Lunch</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="dinner.php">Dinner</a>
+                                </div>
+                            </li>
+
+
+
                             <li class="nav-item">
-                                <a style="margin-left: 20px; font-size: large;" class="nav-link" href="breakfast.html">
+                                <a style="margin-left: 20px; font-size: large;" class="nav-link" href="post.php">
+                                    Post a Recipe </a>
+                            </li>
+
+
+                            <!-- <li class="nav-item">
+                                <a style="margin-left: 20px; font-size: large;" class="nav-link" href="breakfast.php">
                                     Breakfast </a style="margin-left: 10px;">
                             </li>
                             <li class="nav-item">
-                                <a style="margin-left: 20px; font-size: large;" class="nav-link" href="lunch.html">
+                                <a style="margin-left: 20px; font-size: large;" class="nav-link" href="lunch.php">
                                     Lunch </a style="margin-left: 10px;">
                             </li>
                             <li class="nav-item">
-                                <a style="margin-left: 20px; font-size: large;" class="nav-link" href="dinner.html">
+                                <a style="margin-left: 20px; font-size: large;" class="nav-link" href="dinner.php">
                                     Dinner </a>
-                            </li>
+                            </li> -->
                         </ul>
+
                         <form class="form-inline my-2 my-lg-0" id="search">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
                         </form>
                     </div>
                 </nav>
