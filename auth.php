@@ -2,7 +2,7 @@
 
 if (isset($_POST['username']) && isset($_POST['password'])) {
     $username = htmlentities($_POST['username']);
-    $password = htmlentities($_POST['password']);
+    $password = md5(htmlentities($_POST['password']));
     $sql = "SELECT * FROM userinfo WHERE username='$username'";
     $result = $conn->query($sql);
 

@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--CSS link-->
     <link rel="stylesheet" href="css/terms_conditions.css">
     <!--favicon link-->
@@ -43,9 +42,7 @@
 
                 <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use
                     FUD-HUB if you do not agree to take all of the terms and conditions stated on this page. Our Terms
-                    and Conditions were created with the help of the <a
-                        href="https://www.termsandconditionsgenerator.com">Terms And Conditions Generator</a> and the <a
-                        href="https://www.termsconditionsgenerator.com">Terms & Conditions Generator</a>.</p>
+                    and Conditions were created with the help of the <a href="https://www.termsandconditionsgenerator.com">Terms And Conditions Generator</a> and the <a href="https://www.termsconditionsgenerator.com">Terms & Conditions Generator</a>.</p>
 
                 <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer
                     Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website
@@ -226,31 +223,5 @@
 
 
     </div>
-    <div class="footer">
 
-        <p> Help us to Grow More... Contact us:)</p>
-        <p> FUD-HUB </p>
-        <p><a href="tel:041752164">041752164</a> </p>
-        <p><a href="mailto:fud.hub@gmail.com">fud.hub@gmail.com</a></p>
-
-        By continuing past this page, you agree to our <a href="terms_conditions.html" rel="nofollow">T&C.</a>
-        All trademarks are properties of their
-        respective owners. © - <a href="frontpage.html">FUD-HUB</a>™ Media Pvt Ltd.<p> All rights reserved.
-        </p>
-
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+    <?php include 'footer.php' ?>

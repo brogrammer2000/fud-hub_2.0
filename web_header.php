@@ -48,7 +48,7 @@
                  <h4 class="hello">
                      <?php
                         session_start();
-                        echo "Hello " . $_SESSION['user'];
+                        echo "Hello, " . $_SESSION['user']."!";
 
                         ?>
                  </h4>
