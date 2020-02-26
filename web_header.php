@@ -27,6 +27,7 @@
      <!-- my CSS-->
      <link rel="stylesheet" href="CSS/bld.css">
      <link rel="stylesheet" href="CSS/frontPage1.css">
+     <link rel="stylesheet" href="CSS/end_recipe_css.css">
 
 
  </head>
