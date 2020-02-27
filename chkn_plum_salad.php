@@ -12,7 +12,7 @@
 
     <!--CSS link-->
     <link href='https://fonts.googleapis.com/css?family=Marck Script' rel='stylesheet'>
-    <link rel="stylesheet" href="end_recipe_css.css">
+    <link rel="stylesheet" href="CSS/end_recipe_css.css">
 
     <!-- Navbar-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">

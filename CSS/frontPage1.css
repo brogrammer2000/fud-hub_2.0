@@ -28,7 +28,7 @@ a:hover{
 h1.heading{
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: xx-large;
     padding: 1% 5%; 
 }
 
@@ -54,11 +54,11 @@ img.option:hover{
     color: black;
 }
 
-.breakfast h2{
+.breakfast h3{
    color: red;
 }    
 
-a.breakfast,h2:hover{
+a.breakfast,h3:hover{
     text-decoration: none;
     color: blue;
     cursor: pointer;
@@ -79,7 +79,7 @@ a.breakfast,h2:hover{
     margin: 3% 15%;
 }
 
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px 
 @media screen and (min-width: 990px) {
     /* h1 {
       font-size: 40px;
@@ -87,11 +87,11 @@ a.breakfast,h2:hover{
 
     h3{
         font-size: 25px;
-    } */
+    }
   }
-  
+  */
 
-  @media screen and (max-width: 990px) {
+  /*@media screen and (max-width: 990px) {
     h1 {
       font-size: 50px;
     }
@@ -100,7 +100,7 @@ a.breakfast,h2:hover{
         font-size: 40px;
     }
   }
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+   If the screen size is 600px wide or less, set the font-size of <div> to 30px 
   @media screen and (max-width: 900px) {
     h1 {
       font-size: 30px;
@@ -120,7 +120,7 @@ a.breakfast,h2:hover{
         }
   }
 
-  }
+  }*/
 
 .user{
     font-size: 30px;
