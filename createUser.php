@@ -1,17 +1,4 @@
 <?php include 'db.php';
-<<<<<<< HEAD
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $f = test_input($_POST['fname']);
-    $l = test_input($_POST['lname']);
-    $e = test_input($_POST['email']);
-    $u = test_input($_POST['username']);
-    $p = md5(test_input($_POST['password']));
-    $g = $_POST['gender'];
-    $m = $_POST['month'];
-    $d = $_POST['day'];
-    $y = $_POST['year'];
-    $bd = "$y-$m-$d";
-=======
 session_start();
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 $f = test_input($_POST['fname']);
@@ -24,7 +11,6 @@ $m = $_POST['month'];
 $d = $_POST['day'];
 $y = $_POST['year'];
 $bd = "$y-$m-$d";
->>>>>>> ad1e30f0dcc3e1b2428209a47d48a4ab181c2c3f
 }
 
 //check the input

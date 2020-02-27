@@ -178,21 +178,21 @@
             <div class="col-lg-4">
                 <img class="option" src="image/breakfast.jpg" alt="breakfast" class="img-fluid">
                 <a class="breakfast" onclick="myFunction()">
-                    <h2><b>Breakfast</b></h2>
+                    <h3><b>Breakfast</b></h3>
                 </a>
             </div> <!-- col -->
 
             <div class="col-lg-4">
                 <img class="option" src="image/lunch1.jpg" alt="lunch" class="img-fluid">
                 <a class="breakfast" onclick="myFunction()">
-                    <h2><b>Lunch</b></h2>
+                    <h3><b>Lunch</b></h3>
                 </a>
             </div> <!-- col -->
 
             <div class="col-lg-4">
                 <img class="option" src="image/dinner2.jpg" alt="dinner" class="img-fluid">
                 <a class="breakfast" onclick="myFunction()">
-                    <h2><b>Dinner</b></h2>
+                    <h3><b>Dinner</b></h3>
                 </a>
             </div> <!-- col -->
 

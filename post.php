@@ -49,6 +49,7 @@
                         </div>
                         <div class="col-75">
                             <select id="country" name="cuisine">
+                                <option value="#">Select one</option>
                                 <option value="australia">Turkish</option>
                                 <option value="canada">Chinese</option>
                                 <option value="usa">Finnish</option>
