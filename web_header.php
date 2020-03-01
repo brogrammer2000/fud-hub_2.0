@@ -29,6 +29,10 @@
      <link rel="stylesheet" href="CSS/frontPage1.css">
      <link rel="stylesheet" href="CSS/end_recipe_css.css">
 
+      <!--favicon link-->
+    <link rel="shortcut icon" href="favicon.ico" />
+
+
 
  </head>
 

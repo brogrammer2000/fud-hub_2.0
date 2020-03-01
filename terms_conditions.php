@@ -9,8 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!--CSS link-->
+    <!--CSS links-->
     <link rel="stylesheet" href="css/terms_conditions.css">
+    <link rel="stylesheet" href="CSS/end_recipe_css.css">
     <!--favicon link-->
     <link rel="shortcut icon" href="favicon.ico" />
 
@@ -222,23 +223,13 @@
                     we will not be liable for any loss or damage of any nature.</p>
             </div>
         </div>
-
-
-
+        <?php include "footer.php" 
+        ?>
+        
     </div>
-    <div class="footer">
+    
 
-        <p> Help us to Grow More... Contact us:)</p>
-        <p> FUD-HUB </p>
-        <p><a href="tel:041752164">041752164</a> </p>
-        <p><a href="mailto:fud.hub@gmail.com">fud.hub@gmail.com</a></p>
-
-        By continuing past this page, you agree to our <a href="terms_conditions.html" rel="nofollow">T&C.</a>
-        All trademarks are properties of their
-        respective owners. © - <a href="frontpage.html">FUD-HUB</a>™ Media Pvt Ltd.<p> All rights reserved.
-        </p>
-
-    </div>
+        
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
