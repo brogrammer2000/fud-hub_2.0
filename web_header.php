@@ -30,7 +30,7 @@
      <link rel="stylesheet" href="CSS/end_recipe_css.css">
 
       <!--favicon link-->
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="image/favicon.ico" />
 
 
 
