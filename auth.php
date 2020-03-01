@@ -1,5 +1,8 @@
 <?php include 'db.php';
 
+error_reporting(0);
+ini_set('display_errors', 0);
+
 if (isset($_POST['username']) && isset($_POST['password'])) {
     $username = htmlentities($_POST['username']);
     $password = md5(htmlentities($_POST['password']));
