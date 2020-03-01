@@ -48,7 +48,8 @@
              <div class="col-sm-12">
                  <h4 class="hello">
                      <?php
-                        session_start();
+                       
+                        // session_start();
                         echo "Hello, " . $_SESSION['user']."!";
 
                         ?>
