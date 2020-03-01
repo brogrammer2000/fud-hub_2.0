@@ -1,11 +1,5 @@
 <div class="container-fluid">
-
-<div class="advertisement">
-<?php include "advertisement.php"
-?>
-
-</div>
-    
+    <?php include 'advertisement.php' ?>
         <div class="footer">
             <p> Help us to Grow More... Contact us:)</p>
             <p> FUD-HUB </p>
