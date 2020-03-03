@@ -1,23 +1,10 @@
-body{
-    background-image: url("food_header_background.jpg");
-}
-
-
-.container-fluid{
-    background-color: whitesmoke;
-    width: 95%;
-}
-
-a{
-    color: red;
-}
-
-a:hover{
-    text-decoration: none;
+.form a{
+    float: right;
+    margin-right: 4%;
 }
 
 .form h1{
-    margin: 2% 0 5%;
+    margin: 2% 0 5% 2%;
 }
 
 .form h5{
@@ -82,3 +69,5 @@ a:hover{
     color: red;
     font-size: 20px;
 }
+
+

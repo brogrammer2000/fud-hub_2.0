@@ -13,6 +13,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         echo "something is wrong!";
     } else {
         while ($row = $result->fetch_assoc()) {
+
             if ($username == $row['username']) {
                 if ($password == $row['password']) {
                     session_start();
@@ -20,12 +21,21 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
                     include 'frontPage.php';
                 } else {
-                    echo "Wrong password";
+?>
+                    <script>
+                        alert("Wrong Password!");
+                    </script>
+                <?php include 'login.php';
                 }
             } else {
-                echo "User doesn't exist!";
+                ?>
+                <script>
+                    alert("Wrong User Name!");
+                </script>
+<?php include 'login.php';
             }
         }
     }
 }
+
 ?>
