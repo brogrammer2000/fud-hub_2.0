@@ -8,11 +8,12 @@ body{
 }
 
 a{
-    color: red;
+    color: blue;
 }
 
 a:hover{
     text-decoration: none;
+    color: red;
 }
 
 .carousel-inner img {
@@ -42,7 +43,7 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 
 .image h3{
     text-align: center;
-    background-color: black;
+    /* background-color: black; */
 }
 
 img.option:hover{
@@ -53,20 +54,23 @@ img.option:hover{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);   
-    color: black;
+    transform: translate(-50%, -50%); 
 }
 
 .breakfast h3{
-   
+   border-radius: 50%;
+   border: 3px solid black;
+   padding: 1em;
    color: white;
+   background-color: black;
 
 }    
 
 a.breakfast,h3:hover{
     text-decoration: none;
-    color: blue;
+    color: red;
     cursor: pointer;
+    opacity: 0.9;
 }
 
 .footer a{

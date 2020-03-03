@@ -102,8 +102,7 @@
                         <li data-target="#demo" data-slide-to="0" class="active"></li>
                         <li data-target="#demo" data-slide-to="1"></li>
                         <li data-target="#demo" data-slide-to="2"></li>
-                        <li data-target="#demo" data-slide-to="3"></li>
-                        <li data-target="#demo" data-slide-to="0"></li>
+                        <li data-target="#demo" data-slide-to="3"></li>                        
 
                     </ul>
 
@@ -119,7 +118,7 @@
                             <img src="image/cooking1.jpg" alt="cooking2" width="1100" height="500">
                         </div>
                         <div class="carousel-item">
-                            <img src="image/cooking5.jpg" alt="cooking3" width="1100" height="500">
+                            <img src="image/cooking6.jpg" alt="cooking3" width="1100" height="500">
                         </div>
                     </div>
 
