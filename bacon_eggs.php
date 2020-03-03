@@ -119,15 +119,11 @@
 
         <?php include "comments.php"
         ?>
-
-<div class="w3-content">
- <a href="https://litmosheroes.com/"><img class="mySlides" src="https://i.imgur.com/ZtdhrUA.jpg" alt="custom_html_banner1" style="width:100%"></a>
-</div>
-
+        <?php include "footer.php"
+        ?>
     </div>
     <!--container-->
-    <?php include "footer.php"
-    ?>
+
 
 </body>
 
