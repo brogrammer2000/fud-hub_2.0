@@ -26,7 +26,7 @@
                         <img src="image/cooking2.jpg" alt="cooking2" width="1100" height="500">
                     </div>
                     <div class="carousel-item">
-                        <img src="image/cooking4.jpg" alt="cooking3" width="1100" height="500">
+                        <img src="image/cooking5.jpg" alt="cooking3" width="1100" height="500">
                     </div>
                 </div>
 
@@ -106,10 +106,9 @@
         </div> <!-- col -->
 
     </div> <!-- row -->
-
+    <?php include 'footer.php' ?>
 </div>
 
 
 
 
-<?php include 'footer.php' ?>
