@@ -26,7 +26,7 @@
                         <img src="image/cooking2.jpg" alt="cooking2" width="1100" height="500">
                     </div>
                     <div class="carousel-item">
-                        <img src="image/cooking5.jpg" alt="cooking3" width="1100" height="500">
+                        <img src="image/cooking6.jpg" alt="cooking3" width="1100" height="500">
                     </div>
                 </div>
 
@@ -59,12 +59,12 @@
                         <hr>
                     </div>
                     <div class="carousel-item">
-                            <a href="https://www.aalto.fi/en/admission-services/bachelors-admissions">
-                                <img src="image/lamk.png" alt="lamk" class="img-fluid">
-                                <button class="btn btn-danger">Apply Now</button>
-                            </a>
-                            <hr>
-                        </div>
+                        <a href="https://www.aalto.fi/en/admission-services/bachelors-admissions">
+                            <img src="image/lamk.png" alt="lamk" class="img-fluid">
+                            <button class="btn btn-danger">Apply Now</button>
+                        </a>
+                        <hr>
+                    </div>
                     <div class="carousel-item">
                         <a href="https://www.haaga-helia.fi/en/for-applicant/applicant?userLang=en">
                             <img src="image/haaga.png" alt="haaga" class="img-fluid">
@@ -106,9 +106,5 @@
         </div> <!-- col -->
 
     </div> <!-- row -->
-    <?php include 'footer.php' ?>
 </div>
-
-
-
-
+<?php include 'footer.php' ?>
