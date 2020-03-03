@@ -124,13 +124,13 @@
         <?php include "comments.php"
         ?>
 
-
+        <?php include "footer.php"
+        ?>
 
 
     </div>
     <!--container-->
-    <?php include "footer.php"
-    ?>
+
 
 </body>
 
