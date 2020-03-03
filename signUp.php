@@ -20,6 +20,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
     <!-- my CSS-->
+    <link rel="stylesheet" href="CSS/end_recipe_css.css">
     <link rel="stylesheet" href="CSS/frontPage1.css">
     <link rel="stylesheet" href="CSS/login.css">
 
