@@ -11,7 +11,12 @@ $sql = "insert into post_recipe ( username , cuisine , ingredients , instruction
 values ('$username','$cuisine', '$ingredients', '$instructions','$nandn','$video','$image')";
 if ($conn->query($sql) === TRUE){
 
-    echo "New record added";
+   ?>
+    <script>
+        alert("Sign Up Sucessfully");
+    </script>
+<?php
+    include 'post.php';
 
 }
 else
