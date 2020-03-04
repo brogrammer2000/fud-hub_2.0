@@ -29,8 +29,8 @@
      <link rel="stylesheet" href="CSS/frontPage1.css">
      <link rel="stylesheet" href="CSS/end_recipe_css.css">
 
-      <!--favicon link-->
-    <link rel="shortcut icon" href="image/favicon.ico" />
+     <!--favicon link-->
+     <link rel="shortcut icon" href="image/favicon.ico" />
 
 
 
@@ -53,12 +53,18 @@
                  <h4 class="hello">
                      <?php
                         session_start();
-                        echo "Hello, " . $_SESSION['user']."!";
+                        echo "Hello, " . $_SESSION['user'] . "!";
 
                         ?>
                  </h4>
              </div>
          </div>
+
+         <!-- <div class="row">
+             <div class="col-sm-12">
+                 <button type="button" class="btn btn-danger logout">Log out</button>
+             </div>
+         </div> -->
 
          <!-- nav bar -->
          <div class="row">
@@ -112,6 +118,11 @@
                              <li class="nav-item">
                                  <a style="margin-left: 20px; font-size: large;" class="nav-link" href="post.php">
                                      Post a Recipe </a>
+                             </li>
+
+                             <li class="nav-item">
+                                 <a style="margin-left: 20px; font-size: large;" class="nav-link" href="homePage.php">
+                                     Log Out </a>
                              </li>
 
 
