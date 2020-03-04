@@ -28,7 +28,7 @@
      <link rel="stylesheet" href="CSS/bld.css">
      <link rel="stylesheet" href="CSS/frontPage1.css">
      <link rel="stylesheet" href="CSS/end_recipe_css.css">
-     <link rel="stylesheet" href="CSS/post.css">
+     
 
      <!--favicon link-->
      <link rel="shortcut icon" href="image/favicon.ico" />
