@@ -16,27 +16,23 @@
     <link rel="stylesheet" href="post.css">
 
 
-
-
-
 </head>
+
 <body>
 
 
-
-
+<?php include "login_header.php" ?>
 <div class="container">
-    <?php include 'web_header.php'?>
-    <form action="action_page.php" >
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Post a Recipe</h1>
-                <p>Please fill in the details to Post your Recipe</p>
-                <hr>
-
-
+    <form action="action_page.php">
+        <div class="col-sm-12">
+            <h1>Post a Recipe</h1>
+            <p>Please fill in the details to Post your Recipe</p>
+            <hr>
+            <span class="require" style="margin-left: 2%">* required field</span>
+            <form method="POST" action="create.php">
                 <div class="row">
                     <div class="col-25">
+
                         <label for="username">Username</label>
                     </div>
                     <div class="col-75">
@@ -49,7 +45,7 @@
                         <label for="cuisine">Cuisine</label>
                     </div>
                     <div class="col-75">
-                        <select id="country" name="cuisine">
+                        <select id="cuisine" name="cuisine">
                             <option value="#">Select one</option>
                             <option value="chinese">Chinese</option>
 
@@ -67,8 +63,7 @@
                         <label for="ingredients">Ingredients</label>
                     </div>
                     <div class="col-75">
-                        <textarea id="subject" name="ingredients" placeholder="Your Secret Ingredients.."
-                                  style="height:200px"></textarea>
+                        <textarea id="ingredients" name="ingredients" placeholder="Your Secret Ingredients.." style="height:200px"></textarea>
                     </div>
                 </div>
                 <hr>
@@ -77,18 +72,17 @@
                         <label for="instructions">Instructions</label>
                     </div>
                     <div class="col-75">
-                        <textarea id="subject" name="instructions" placeholder="Write something.."
-                                  style="height:200px"></textarea>
+                        <textarea id="instructions" name="instructions" placeholder="Write something.." style="height:200px"></textarea>
                     </div>
                 </div>
                 <hr>
 
                 <div class="row">
                     <div class="col-25">
-                        <label for="nni">Notes & Nutrition Info</label>
+                        <label for="nandn">Notes & Nutrition Info</label>
                     </div>
                     <div class="col-75">
-                        <input id="notes" name="nni" placeholder="Notes & Nutritions..." type="text">
+                        <input id="nandn" name="nandn" placeholder="Notes & Nutritions..." type="text">
                     </div>
                 </div>
                 <hr>
@@ -96,39 +90,25 @@
 
 
 
-            <div class="row">
-                <div class="col-25">
-                    <label for="url">Youtube video link</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="url" name="url" placeholder="Paste the youtube video URL here">
-                </div>
-                <div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="video">Video Link</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="video" name="video" placeholder="Upload Video link url">
+                    </div>
+                    <div>
 
-                <label for="image">Select Image:</label>
-                <input type="file" id="img" name="img">
-                </div>
-
-            </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
-                    <div class="row">
-                        <input type="submit" value="Submit">
+                        <label for="image">Select Image:</label>
+                        <input type="file" id="image" name="image">
                     </div>
 
-
-            </div>
-
-
+                </div>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+    </form>
 
 
 
@@ -136,7 +116,13 @@
 
 
 
+
+
+</div>
+
+
+
 </body>
 
 </html>
-<?php include 'footer.php'?>
+<?php include 'footer.php' ?>

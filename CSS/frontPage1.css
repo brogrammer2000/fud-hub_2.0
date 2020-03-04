@@ -173,6 +173,7 @@ h4.hello {
 .advertisement img{
     width: 100%;
     margin-bottom: 2%;
+    margin-top: 12%;
 }
 
 .advertisement img:hover{

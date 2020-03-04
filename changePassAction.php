@@ -17,22 +17,25 @@ if (isset($_POST['username']) && isset($_POST['password']) && isset($_POST['newP
                 if ($query) {
 ?>
                     <script>
-                        alert("Password is changed");
+                        alert("Password is changed successfully");
+                        location.replace('login.php');
                     </script>
-                <?php include 'login.php';
+                <?php
                 }
             } else if ($username == $row['username'] && $password != $row['password']) {
                 ?>
                 <script>
                     alert("Password is wrong!");
+                    location.replace('changePassForm.php');
                 </script>
-<?php include 'changePassForm.php';
-            }else if ($username != $row['username'] && $password == $row['password']) {
-                ?>
+            <?php
+            } else if ($username != $row['username'] && $password == $row['password']) {
+            ?>
                 <script>
                     alert("Username is wrong!");
+                    location.replace('changePassForm.php');
                 </script>
-<?php include 'changePassForm.php';
+<?php
             }
         }
     }
