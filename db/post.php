@@ -106,7 +106,7 @@
                         <div>
 
                             <label for="image">Select Image:</label>
-                            <input type="file" id="img" name="img">
+                            <input type="file" id="imgage" name="imgage">
                         </div>
 
                     </div>
