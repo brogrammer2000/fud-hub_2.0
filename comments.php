@@ -5,7 +5,7 @@
         <hr>
         <p>Your email address will not be published. Required fields are marked <span style="color: red">*</span></p>
 
-        <form name="comments_form" method="POST" action="enter_data.php">
+        <form id="myform" name="comments_form" method="POST" action="enter_data.php">
 
 
             <p>NAME <span style="color: red">*</span></p>
@@ -22,10 +22,14 @@
             <br>
             <br>
 
+            <input type="button" onclick="myFunction()" value=" Save and Reset form">
 
-            <input style="background-color: red" type="submit" value="Save Data">
-            <hr>
-
+            <script>
+                function myFunction() {
+                    document.getElementById("myForm").submit();
+                    document.getElementById("myForm").reset();
+                }
+            </script>
         </form>
     </div>
 
@@ -37,7 +41,7 @@
         <hr>
         <div id="input_box" class="box">
             <?php
-            
+
             $sql = "select * from comments order by MYTIMESTAMP DESC limit 6";
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {
@@ -50,7 +54,7 @@
             }
             ?>
         </div>
-       
+
         <hr>
     </div>
 
