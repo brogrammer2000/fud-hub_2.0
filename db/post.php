@@ -51,7 +51,7 @@
                             <label for="cuisine">Cuisine</label>
                         </div>
                         <div class="col-75">
-                            <select id="country" name="cuisine">
+                            <select id="cuisine" name="cuisine">
                                 <option value="#">Select one</option>
                                 <option value="chinese">Chinese</option>
 
@@ -69,7 +69,7 @@
                             <label for="ingredients">Ingredients</label>
                         </div>
                         <div class="col-75">
-                            <textarea id="subject" name="ingredients" placeholder="Your Secret Ingredients.." style="height:200px"></textarea>
+                            <textarea id="ingredients" name="ingredients" placeholder="Your Secret Ingredients.." style="height:200px"></textarea>
                         </div>
                     </div>
                     <hr>
@@ -78,17 +78,17 @@
                             <label for="instructions">Instructions</label>
                         </div>
                         <div class="col-75">
-                            <textarea id="subject" name="instructions" placeholder="Write something.." style="height:200px"></textarea>
+                            <textarea id="instructions" name="instructions" placeholder="Write something.." style="height:200px"></textarea>
                         </div>
                     </div>
                     <hr>
 
                     <div class="row">
                         <div class="col-25">
-                            <label for="nni">Notes & Nutrition Info</label>
+                            <label for="nandn">Notes & Nutrition Info</label>
                         </div>
                         <div class="col-75">
-                            <input id="notes" name="nni" placeholder="Notes & Nutritions..." type="text">
+                            <input id="nandn" name="nandn" placeholder="Notes & Nutritions..." type="text">
                         </div>
                     </div>
                     <hr>
@@ -98,10 +98,10 @@
 
                     <div class="row">
                         <div class="col-25">
-                            <label for="url">URL</label>
+                            <label for="url">Video Link</label>
                         </div>
                         <div class="col-75">
-                            <input type="text" id="url" name="url" placeholder="Upload URL..">
+                            <input type="text" id="url" name="url" placeholder="Upload Video link url">
                         </div>
                         <div>
 
