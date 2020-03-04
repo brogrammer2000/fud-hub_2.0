@@ -22,10 +22,10 @@
             <br>
             <br>
 
-            <input type="button" onclick="myFunction()" value=" Save and Reset form">
+            <input type="button" onclick="saveData()" value=" Submit your Comment ">
 
             <script>
-                function myFunction() {
+                function saveData() {
                     document.getElementById("myForm").submit();
                     document.getElementById("myForm").reset();
                 }
