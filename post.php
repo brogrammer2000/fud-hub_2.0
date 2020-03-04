@@ -98,10 +98,10 @@
 
             <div class="row">
                 <div class="col-25">
-                    <label for="url">URL</label>
+                    <label for="url">Youtube video link</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="url" name="url" placeholder="Upload URL..">
+                    <input type="text" id="url" name="url" placeholder="Paste the youtube video URL here">
                 </div>
                 <div>
 

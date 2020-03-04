@@ -7,7 +7,7 @@ $nni = isset($_POST['nni']) ;
 $url =  isset($_POST['url']) ;
 $image = isset($_POST  ['image']) ;
 
-$sql = "insert into post_recipe ( uname , cuisine , ingredients , instructions , nni , url , image)
+$sql = "insert into post_recipe ( uname , cuisine , ingredients , instructions , nandn , url , image)
 values ('$uname','$cuisine', '$ingredients', '$instructions','$nni','$url','$image')";
 if ($conn->query($sql) === TRUE){
 
