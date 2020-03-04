@@ -96,7 +96,7 @@
                 </p>
             </div>
             <div class="col-sm-6" id="nutrition_img">
-                <img src="pancakes_info.jpg" alt="nutritional information">
+                <img src="image/pancakes_info.jpg" alt="nutritional information">
             </div>
         </div>
 
