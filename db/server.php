@@ -6,11 +6,12 @@ $username = "";
 $cuisine = "";
 $ingredients = "";
 $instructions = "";
-$nni = "";
-$image = "";
-$url = "";
+$nandi = "";
 
-$db = mysqli_connect('localhost', 'root', '', 'post');
+$url = "";
+$image = "";
+
+$db = mysqli_connect('localhost', 'admin', 'admin123', 'post');
 
 
 if (isset($_POST['post_rec'])) {
@@ -19,18 +20,20 @@ if (isset($_POST['post_rec'])) {
     $cuisine = mysqli_real_escape_string($db, $_POST['cuisine']);
     $ingredients = mysqli_real_escape_string($db, $_POST['ingredients']);
     $instructions = mysqli_real_escape_string($db, $_POST['instructions']);
-    $nni = mysqli_real_escape_string($db, $_POST['nni']);
-    $image = mysqli_real_escape_string($db, $_POST['image']);
+    $nandi = mysqli_real_escape_string($db, $_POST['nandi']);
+    
     $url = mysqli_real_escape_string($db, $_POST['url']);
+    $image = mysqli_real_escape_string($db, $_POST['image']);
 
 
     if (empty($username)) { array_push($errors, "Username is required"); }
     if (empty($cuisine)) { array_push($errors, "Cuisine is required"); }
     if (empty($ingredients)) { array_push($errors, "Ingredients is required"); }
     if (empty($instructions)) { array_push($errors, "Instructions is required"); }
-    if (empty($nni)) { array_push($errors, "Notes are required"); }
-    if (empty($image)) { array_push($errors, "Image is required"); }
+    if (empty($nandi)) { array_push($errors, "Notes are required"); }
+    
     if (empty($url)) { array_push($errors, "URL is required"); }
+    if (empty($image)) { array_push($errors, "Image is required"); }
 
     }
 
