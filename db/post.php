@@ -98,15 +98,15 @@
 
                     <div class="row">
                         <div class="col-25">
-                            <label for="url">Video Link</label>
+                            <label for="video">Video Link</label>
                         </div>
                         <div class="col-75">
-                            <input type="text" id="url" name="url" placeholder="Upload Video link url">
+                            <input type="text" id="video" name="video" placeholder="Upload Video link url">
                         </div>
                         <div>
 
                             <label for="image">Select Image:</label>
-                            <input type="file" id="imgage" name="imgage">
+                            <input type="file" id="image" name="image">
                         </div>
 
                     </div>
