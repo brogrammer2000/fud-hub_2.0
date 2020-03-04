@@ -13,7 +13,7 @@ if ($conn->query($sql) === TRUE){
 
    ?>
     <script>
-        alert("Sign Up Sucessfully");
+        alert("Recipe posted Sucessfully");
     </script>
 <?php
     include 'post.php';
