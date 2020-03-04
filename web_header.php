@@ -38,11 +38,6 @@
  </head>
 
  <body>
-     <script>
-         function myFunction() {
-             window.alert("Please Login First!");
-         }
-     </script>
      <div class="container-fluid">
          <div class="row">
              <div class="col-sm-5">

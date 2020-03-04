@@ -16,18 +16,13 @@
     <link rel="stylesheet" href="post.css">
 
 
-
-
-
 </head>
 
 <body>
 
 
-
-
+    <?php include 'web_header.php' ?>
     <div class="container">
-        <?php include 'web_header.php' ?>
         <form action="action_page.php">
             <div class="row">
                 <div class="col-sm-12">
@@ -35,81 +30,81 @@
                     <p>Please fill in the details to Post your Recipe</p>
                     <hr>
 
-                     <form method="POST" action="create.php">
-                    <div class="row">
-                        <div class="col-25">
-                           
-                            <label for="username">Username</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="text" id="username" name="username" placeholder="Your Username..">
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="cuisine">Cuisine</label>
-                        </div>
-                        <div class="col-75">
-                            <select id="cuisine" name="cuisine">
-                                <option value="#">Select one</option>
-                                <option value="chinese">Chinese</option>
+                    <form method="POST" action="create.php">
+                        <div class="row">
+                            <div class="col-25">
 
-                                <option value="indian">Indian</option>
-                                <option value="mexican">Mexican</option>
-                                <option value="swedish">Swedish</option>
-                                <option value="italian">Italian</option>
-                                <option value="turkish">Turkish</option>
-                            </select>
+                                <label for="username">Username</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="username" name="username" placeholder="Your Username..">
+                            </div>
                         </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="ingredients">Ingredients</label>
-                        </div>
-                        <div class="col-75">
-                            <textarea id="ingredients" name="ingredients" placeholder="Your Secret Ingredients.." style="height:200px"></textarea>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="instructions">Instructions</label>
-                        </div>
-                        <div class="col-75">
-                            <textarea id="instructions" name="instructions" placeholder="Write something.." style="height:200px"></textarea>
-                        </div>
-                    </div>
-                    <hr>
+                        <hr>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="cuisine">Cuisine</label>
+                            </div>
+                            <div class="col-75">
+                                <select id="cuisine" name="cuisine">
+                                    <option value="#">Select one</option>
+                                    <option value="chinese">Chinese</option>
 
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="nandn">Notes & Nutrition Info</label>
+                                    <option value="indian">Indian</option>
+                                    <option value="mexican">Mexican</option>
+                                    <option value="swedish">Swedish</option>
+                                    <option value="italian">Italian</option>
+                                    <option value="turkish">Turkish</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="col-75">
-                            <input id="nandn" name="nandn" placeholder="Notes & Nutritions..." type="text">
+                        <hr>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="ingredients">Ingredients</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="ingredients" name="ingredients" placeholder="Your Secret Ingredients.." style="height:200px"></textarea>
+                            </div>
                         </div>
-                    </div>
-                    <hr>
+                        <hr>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="instructions">Instructions</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="instructions" name="instructions" placeholder="Write something.." style="height:200px"></textarea>
+                            </div>
+                        </div>
+                        <hr>
 
-
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="nandn">Notes & Nutrition Info</label>
+                            </div>
+                            <div class="col-75">
+                                <input id="nandn" name="nandn" placeholder="Notes & Nutritions..." type="text">
+                            </div>
+                        </div>
+                        <hr>
 
 
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="video">Video Link</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="text" id="video" name="video" placeholder="Upload Video link url">
-                        </div>
-                        <div>
 
-                            <label for="image">Select Image:</label>
-                            <input type="file" id="image" name="image">
-                        </div>
 
-                    </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="video">Video Link</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="video" name="video" placeholder="Upload Video link url">
+                            </div>
+                            <div>
+
+                                <label for="image">Select Image:</label>
+                                <input type="file" id="image" name="image">
+                            </div>
+
+                        </div>
                 </div>
 
 
