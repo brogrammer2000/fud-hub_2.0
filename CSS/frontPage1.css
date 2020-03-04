@@ -159,7 +159,15 @@ a.breakfast,h3:hover{
 
 h4.hello {
     float: right; 
-    margin: 0 4% 3% 0;
+    margin: 0 4% 1.5% 0;
+}
+
+.hello a{
+    color: black;
+}
+
+.hello a:hover{
+    color: red;
 }
 
 .advertisement img{
@@ -206,3 +214,13 @@ h4.hello {
     background-color: black;  
 }
 
+#logout{
+    display: none;
+    color: black;
+    float: right;
+    margin: 0 10% 3% 0;
+}
+
+#logout:hover{
+    color: red;
+}
