@@ -28,6 +28,7 @@
      <link rel="stylesheet" href="CSS/bld.css">
      <link rel="stylesheet" href="CSS/frontPage1.css">
      <link rel="stylesheet" href="CSS/end_recipe_css.css">
+     
 
      <!--favicon link-->
      <link rel="shortcut icon" href="image/favicon.ico" />
@@ -113,7 +114,7 @@
                              <!-- services -->
                              <li class="nav-item dropdown">
                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                     Services
+                                     Meals
 
                                  </a>
                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">

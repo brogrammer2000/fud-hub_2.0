@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!--CSS link-->
-    <link href='https://fonts.googleapis.com/css?family=Marck Script' rel='stylesheet'>
-    <link rel="stylesheet" href="end_recipe_css.css">
-
-    <!-- Navbar-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/4.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
-    </script>
-
-    <!--favicon link-->
-    <link rel="shortcut icon" href="favicon.ico" />
-
-    <title>FUD-HUB 2.0</title>
-</head>
-
-<body>
     <div class="container">
         <?php include "web_header.php"
         ?>
@@ -124,19 +96,19 @@
                 </p>
             </div>
             <div class="col-sm-6" id="nutrition_img">
-                <img src="pancakes_info.jpg" alt="nutritional information">
+                <img src="image/pancakes_info.jpg" alt="nutritional information">
             </div>
         </div>
 
 
         <?php include "comments.php"
         ?>
-
+<?php include "footer.php"
+    ?>
 
     </div>
     <!--container-->
-    <?php include "footer.php"
-    ?>
+    
 
 </body>
 

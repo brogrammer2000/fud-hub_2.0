@@ -38,7 +38,7 @@
         <div id="input_box" class="box">
             <?php
             
-            $sql = "select * from comments order by MYTIMESTAMP DESC";
+            $sql = "select * from comments order by MYTIMESTAMP DESC limit 6";
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {

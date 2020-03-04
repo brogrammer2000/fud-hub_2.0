@@ -8,7 +8,7 @@
 
             By continuing past this page, you agree to our <a href="terms_conditions.php" target="_blank" rel="nofollow">T&C.</a>
             All trademarks are properties of their
-            respective owners. © - <a href="frontPage.php">FUD-HUB</a>™ Media Pvt Ltd.<p> All rights reserved.
+            respective owners. © - FUD-HUB ™ Media Pvt Ltd.<p> All rights reserved.
             </p>
             </p>
         </div>

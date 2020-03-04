@@ -1,15 +1,15 @@
 <?php
 include 'server.php';
-$sql = "select * from post_recipe";
+$sql = "select * from post-a-recipe";
 
 $result = $conn->query($sql);
 if($result ->num_rows > 0) {
 //fetch_assoc(): It fetches result as an associative array.
     while($row = $result ->fetch_assoc()){
-        echo "username:" . $row["uname"] . "Cuisine:". $row["cuisine"]."Ingredients:". $row["ingredients"]
+        echo "username:" . $row["username"] . "Cuisine:". $row["cuisine"]."Ingredients:". $row["ingredients"]
 
-            ."Instructions:". $row["instruction"]. "Notes & Nutrition info:". $row["nni"]. "Image:". $row["image"]
-            . "URL:". $row["url"]
+            ."Instructions:". $row["instruction"]. "Notes & Nutrition info:". $row["nandi"]
+            . "URL:". $row["url"]."Image:". $row["image"]
             ."<br>";
     }
 }
