@@ -6,9 +6,9 @@ $result = $conn->query($sql);
 if($result ->num_rows > 0) {
 //fetch_assoc(): It fetches result as an associative array.
     while($row = $result ->fetch_assoc()){
-        echo "username:" . $row["uname"] . "Cuisine:". $row["cuisine"]."Ingredients:". $row["ingredients"]
+        echo "username:" . $row["username"] . "Cuisine:". $row["cuisine"]."Ingredients:". $row["ingredients"]
 
-            ."Instructions:". $row["instruction"]. "Notes & Nutrition info:". $row["nni"]. "Image:". $row["image"]
+            ."Instructions:". $row["instruction"]. "Notes & Nutrition info:". $row["nandi"]. "Image:". $row["image"]
             . "URL:". $row["url"]
             ."<br>";
     }
