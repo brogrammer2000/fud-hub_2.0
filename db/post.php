@@ -35,9 +35,10 @@
                     <p>Please fill in the details to Post your Recipe</p>
                     <hr>
 
-
+                     <form method="POST" action="create.php">
                     <div class="row">
                         <div class="col-25">
+                           
                             <label for="username">Username</label>
                         </div>
                         <div class="col-75">
