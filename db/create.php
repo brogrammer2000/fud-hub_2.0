@@ -1,14 +1,14 @@
 <?php include 'post_recipe.php';
-$username = isset($_POST['uname']) ;
+$username = isset($_POST['username']) ;
 $cuisine = isset($_POST['cuisine']) ;
 $ingredients = isset($_POST['ingredients']) ;
 $instructions = isset($_POST['instructions']) ;
 $nandn = isset($_POST['nandn']) ;
-$video =  isset($_POST['url']) ;
+$video =  isset($_POST['video']) ;
 $image = isset($_POST  ['image']) ;
 
-$sql = "insert into post_recipe ( usernamename , cuisine , ingredients , instructions , nandn , url , image)
-values ('$username','$cuisine', '$ingredients', '$instructions','$nandn','$url','$image')";
+$sql = "insert into post_recipe ( username , cuisine , ingredients , instructions , nandn , video , image)
+values ('$username','$cuisine', '$ingredients', '$instructions','$nandn','$video','$image')";
 if ($conn->query($sql) === TRUE){
 
     echo "New record added";
