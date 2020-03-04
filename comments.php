@@ -22,14 +22,16 @@
             <br>
             <br>
 
-            <input type="button" onclick="saveData()" value=" Submit your Comment ">
+            <input type="submit" onclick="saveData()" value=" Submit your Comment ">
 
-            <script>
-                function saveData() {
-                    document.getElementById("myForm").submit();
-                    document.getElementById("myForm").reset();
-                }
-            </script>
+<script>
+    function saveData() {
+        document.getElementById("myForm").submit();
+        document.getElementById("myForm").reset();
+    }
+</script>
+           
+
         </form>
     </div>
 
@@ -41,7 +43,7 @@
         <hr>
         <div id="input_box" class="box">
             <?php
-
+            
             $sql = "select * from comments order by MYTIMESTAMP DESC limit 6";
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {
@@ -54,7 +56,7 @@
             }
             ?>
         </div>
-
+       
         <hr>
     </div>
 
