@@ -133,10 +133,10 @@
                                      Post a Recipe </a>
                              </li>
 
-                             <li class="nav-item">
+                             <!-- <li class="nav-item">
                                  <a style="margin-left: 20px; font-size: large;" class="nav-link" href="homePage.php">
                                      Log Out </a>
-                             </li>
+                             </li> -->
 
 
                              <!-- <li class="nav-item">
