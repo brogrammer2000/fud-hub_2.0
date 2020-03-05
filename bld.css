@@ -18,6 +18,7 @@ img#br_img{
     width: 25%;
     margin-top: 5%;
     border: 10px solid transparent;
+    border-radius: 30%;
     padding: 5%;
     border-image: url("border.png") 30 round;
     text-align: center;
