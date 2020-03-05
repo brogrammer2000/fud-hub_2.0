@@ -33,9 +33,10 @@ if ($conn->query($sql) === true) {
 ?>
     <script>
         alert("Sign Up Sucessfully");
+        location.replace('login.php');
     </script>
 <?php
-    include 'login.php';
+
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }

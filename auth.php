@@ -1,7 +1,7 @@
 <?php include 'db.php';
 
-error_reporting(0);
-ini_set('display_errors', 0);
+// error_reporting(0);
+// ini_set('display_errors', 0);
 
 if (isset($_POST['username']) && isset($_POST['password'])) {
     $username = htmlentities($_POST['username']);
@@ -19,20 +19,27 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
                     session_start();
                     $_SESSION['user'] = $_POST['username'];
 
-                    include 'frontPage.php';
-                } else {
 ?>
                     <script>
-                        alert("Wrong Password!");
+                        location.replace('frontPage.php');
                     </script>
-                <?php include 'login.php';
+                <?php
+                    // include 'frontPage.php';
+                } else {
+                ?>
+                    <script>
+                        alert("Wrong Password!");
+                        location.replace('login.php');
+                    </script>
+                <?php
                 }
             } else {
                 ?>
                 <script>
                     alert("Wrong User Name!");
+                    locaiton.replace('login.php')
                 </script>
-<?php include 'login.php';
+<?php
             }
         }
     }

@@ -1,9 +1,10 @@
 body {
-    background-image: url(food_header_background.jpg);
+    background-image: url("food_header_background.jpg");
 }
 
-.container{
-    background-color: white;
+.container-fluid{
+    background-color: whitesmoke;
+    width: 95%;
 }
 
 #logo {

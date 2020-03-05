@@ -54,12 +54,19 @@
                  <h4 class="hello">
                      <?php
                         session_start();
-                        echo "Hello, " . $_SESSION['user'] . "!";
+                        echo "<a href='#' onclick='myFunction1()'>Hello, " . $_SESSION['user'] . "!</a>";
 
                         ?>
-                 </h4>
+                 </h4><br>
              </div>
          </div>
+         <!-- log out function -->
+         <div class="row">
+             <div class="col-sm-12">
+                 <h3><a href="homePage.php" id="logout">Log out?</a></h3>
+             </div>
+         </div>
+
 
          <!-- <div class="row">
              <div class="col-sm-12">
@@ -121,10 +128,10 @@
                                      Post a Recipe </a>
                              </li>
 
-                             <li class="nav-item">
+                             <!-- <li class="nav-item">
                                  <a style="margin-left: 20px; font-size: large;" class="nav-link" href="homePage.php">
                                      Log Out </a>
-                             </li>
+                             </li> -->
 
 
                              <!-- <li class="nav-item">
@@ -150,3 +157,14 @@
              </div>
          </div>
      </div>
+
+     <script>
+         function myFunction1() {
+             var x = document.getElementById("logout");
+             if (x.style.display === "none") {
+                 x.style.display = "block";
+             } else {
+                 x.style.display = "none";
+             }
+         }
+     </script>

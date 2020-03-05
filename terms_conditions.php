@@ -19,11 +19,11 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12" id="logo">
                 <a href="homePage.php">
-                    <img src="image/fud-hub_logo_ns.jpg" alt="logo">
+                    <img src="image/fud-hub_logo_ns.png" alt="logo">
                 </a>
             </div>
         </div>
@@ -220,7 +220,6 @@
                     we will not be liable for any loss or damage of any nature.</p>
             </div>
         </div>
-        <?php include "footer.php"
-        ?>
-
     </div>
+    <?php include "footer.php"
+    ?>
