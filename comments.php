@@ -24,12 +24,8 @@
 
             <input type="submit" onclick="saveData()" value=" Submit your Comment">
 
-<script>
-    function saveData() {
-        document.getElementById("myForm").submit();
-        document.getElementById("myForm").reset();
-    }
-</script>
+            <input style="background-color: red" type="submit" value="Save Data">
+            <hr>
            
 
         </form>
