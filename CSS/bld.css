@@ -14,8 +14,8 @@ body{
 
 img#br_img{
 
-    height: 65%;
-    width: 70%;
+    height: 70%;
+    width: 75%;
     margin-top: 5%;
     border: 10px solid transparent;
     padding: 5%;
@@ -38,6 +38,8 @@ img#br_img{
     margin-top: 5%;
 }
 
+}
+
 
 
 a:hover{
@@ -50,29 +52,29 @@ a:hover{
 
 @media screen and (max-width: 990px) {
     h1 {
-        font-size: 50px;
+        font-size: 100%;
     }
 
     h3{
-        font-size: 40px;
+        font-size: 50%;
     }
 
     /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
     @media screen and (max-width: 750px) {
         h1 {
-            font-size: 130px;
+            font-size: 100%;
         }
 
         h3{
-            font-size: 30px;
+            font-size: 50%;
         }
 
         @media screen and (max-width: 220px) {
             h1 {
-                font-size: 130px;
+                font-size: 100%;
             }
 
             h3{
-                font-size: 10px;
+                font-size: 30%;
             }
         }
