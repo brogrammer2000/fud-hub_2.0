@@ -9,16 +9,16 @@
 
 
             <p>NAME <span style="color: red">*</span></p>
-            <input id="input_box" class="info" type="text" name="name">
+            <input id="input_box" class="info" type="text" name="name" required="required">
 
             <p>EMAIL <span style="color: red">*</span></p>
-            <input id="input_box" class="info" type="email" name="email">
+            <input id="input_box" class="info" type="email" name="email" required="required">
 
             <p>COMMENT</p>
-            <textarea id="input_box" class="info" style="height: 150px;" name="comment"></textarea>
+            <textarea id="input_box" class="info" style="height: 150px;" name="comment" required="required"></textarea>
 
             <p>RATING</p>
-            <input id="input_box" class="info" type="number" max="5" min="0" name="rating">
+            <input id="input_box" class="info" type="number" max="5" min="0" name="rating" required="required">
             <br>
             <br>
 
