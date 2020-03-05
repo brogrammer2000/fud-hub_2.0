@@ -93,9 +93,9 @@
 
                                  </a>
                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                     <a class="dropdown-item fa fa-facebook" href="#"> Facebook</a>
+                                     <a class="dropdown-item fa fa-facebook" href="https://www.facebook.com/fud.hub.35"> Facebook</a>
                                      <div class="dropdown-divider"></div>
-                                     <a class="dropdown-item fa fa-instagram" href="#"> Instagram</a>
+                                     <a class="dropdown-item fa fa-instagram" href="https://www.instagram.com/fudhub_official/"> Instagram</a>
                                      <div class="dropdown-divider"></div>
                                      <a class="dropdown-item fa fa-twitter" href="#"> Twitter</a>
                                      <div class="dropdown-divider"></div>
