@@ -17,8 +17,8 @@ img#br_img{
     height: 65%;
     width: 85%;
     margin-top: 5%;
-    border: 10px solid transparent;
-    padding: 5%;
+    border: 20px ;
+    padding: 10%;
     border-image: url("border.png") 30 round;
     text-align: center;
 
@@ -38,7 +38,7 @@ img#br_img{
     margin-top: 5%;
 }
 
-}
+
 
 
 
@@ -78,3 +78,4 @@ a:hover{
                 font-size: 30%;
             }
         }*/
+    }
