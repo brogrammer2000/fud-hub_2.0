@@ -22,10 +22,10 @@
             <br>
             <br>
 
-            <input type="submit" onclick="saveData()" value=" Submit your Comment">
-
             <input style="background-color: red" type="submit" value="Save Data">
             <hr>
+
+            
            
 
         </form>
