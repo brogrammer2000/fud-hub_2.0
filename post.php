@@ -28,7 +28,7 @@
             <h1>Post a Recipe</h1>
             <p>Please fill in the details to Post your Recipe</p>
             <hr>
-            <span class="require" style="margin-left: 2%">* required field</span>
+            <span class="require" style="margin-left: 2%"></span>
             <form method="POST" action="create.php">
                 <div class="row">
                     <div class="col-25">
