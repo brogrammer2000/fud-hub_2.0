@@ -5,7 +5,7 @@
         <hr>
         <p>Your email address will not be published. Required fields are marked <span style="color: red">*</span></p>
 
-        <form id="myform" name="comments_form" method="POST" action="enter_data.php">
+        <form id="myForm" name="comments_form" method="POST" action="enter_data.php">
 
 
             <p>NAME <span style="color: red">*</span></p>
@@ -22,7 +22,7 @@
             <br>
             <br>
 
-            <input type="submit" onclick="saveData()" value=" Submit your Comment ">
+            <input type="submit" onclick="saveData()" value=" Submit your Comment">
 
 <script>
     function saveData() {
