@@ -22,7 +22,7 @@
             <br>
             <br>
 
-            <input id="save_button" type="submit" value="Save Data">
+            <input style="background-color: red; color: white" type="submit" value="Save Data">
             <hr>
 
             
