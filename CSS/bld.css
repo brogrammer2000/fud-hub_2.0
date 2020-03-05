@@ -14,8 +14,8 @@ body{
 
 img#br_img{
 
-    height: 70%;
-    width: 75%;
+    height: 65%;
+    width: 85%;
     margin-top: 5%;
     border: 10px solid transparent;
     padding: 5%;
@@ -31,7 +31,7 @@ img#br_img{
 
 #heading{
     font-family: 'Marck Script';
-    font-size: 50%;
+    font-size: 100%;
     color: red;
     background-color: #f1f1f1 ;
     text-align: center;
