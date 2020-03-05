@@ -12,8 +12,8 @@
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <link rel="stylesheet" href="bld.css">
-    <link rel="stylesheet" href="post.css">
+    <link rel="stylesheet" href="CSS/bld.css">
+    <link rel="stylesheet" href="CSS/post.css">
 
 
 </head>
