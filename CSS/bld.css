@@ -14,8 +14,8 @@ body{
 
 img#br_img{
 
-    height: 80%;
-    width: 90%;
+    height: 70%;
+    width: 75%;
     margin-top: 5%;
     border: 10px solid transparent;
     padding: 5%;
@@ -66,15 +66,15 @@ a:hover{
         }
 
         h3{
-            font-size: 30px;
+            font-size: 50%;
         }
 
         @media screen and (max-width: 220px) {
             h1 {
-                font-size: 50%;
+                font-size: 100%;
             }
 
             h3{
-                font-size: 15%;
+                font-size: 30%;
             }
         }
