@@ -50,14 +50,7 @@ a:hover{
     float: right;
     margin: 3% 15%;}
 
-@media screen and (max-width: 990px) {
-    h1 {
-        font-size: 100%;
-    }
 
-    h3{
-        font-size: 50%;
-    }
 
     /* If the screen size is 600px wide or less, set the font-size of <div> to 30px 
     @media screen and (max-width: 750px) {
@@ -78,4 +71,4 @@ a:hover{
                 font-size: 30%;
             }
         }*/
-    }
+    
