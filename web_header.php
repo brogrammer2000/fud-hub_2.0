@@ -28,7 +28,7 @@
      <link rel="stylesheet" href="CSS/bld.css">
      <link rel="stylesheet" href="CSS/frontPage1.css">
      <link rel="stylesheet" href="CSS/end_recipe_css.css">
-     
+
 
      <!--favicon link-->
      <link rel="shortcut icon" href="image/favicon.ico" />
@@ -63,7 +63,7 @@
          <!-- log out function -->
          <div class="row">
              <div class="col-sm-12">
-                 <h3><a href="homePage.php" id="logout">Log out?</a></h3>
+                 <h3 id="logout" onclick="myFunction2()">Log out?</h3>
              </div>
          </div>
 
@@ -164,6 +164,17 @@
              if (x.style.display === "none") {
                  x.style.display = "block";
              } else {
+                 x.style.display = "none";
+             }
+         }
+
+         function myFunction2() {
+             var result = confirm("Do you really want to log out?");
+             if (result == true) {
+                 alert("Thanks for visiting FUD-HUB!");
+                 location.replace('homePage.php');
+             } else {
+                 var x = document.getElementById("logout");
                  x.style.display = "none";
              }
          }
