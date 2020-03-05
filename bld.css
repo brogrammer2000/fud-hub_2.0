@@ -20,7 +20,7 @@ img#br_img{
     border: 10px solid transparent;
     border-radius: 30%;
     padding: 5%;
-    border-image: url("border.png") 30 round;
+    border-image: url("image/border.png") 30 round;
     text-align: center;
 
 
